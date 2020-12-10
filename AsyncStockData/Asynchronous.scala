@@ -8,8 +8,8 @@ object Asynchronous extends App {
   val starttime = currenttime
 
   val url1 = "https://www.url1.com"
-  val url2 = "https://www.url1.com"
-  val url3 = "https://www.url1.com"
+  val url2 = "https://www.url2.com"
+  val url3 = "https://www.url3.com"
 
   val data1 : Future[String] = getdata(url1)
   val data2 = getdata(url2)
