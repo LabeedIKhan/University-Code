@@ -1,0 +1,26 @@
+﻿
+Test Case 1
+Input
+Lets Test This, 0257845, abcd, ABCD, AaBbCc, +-/@.<>?,//:[]{}, @#
+Output
+lets test this, 0257845, abcd, abcd, aabbcc, +-/@.<>?,//:[]{}, @#
+
+Test Case 2
+Input
+0,00,1,010,22,3, 4, 5, 6, 7, 8, 9, 100, 0.010
+Output
+1,11,1,111,22,3, 4, 5, 6, 7, 8, 9, 111, 1.111
+
+Test Case 3
+Input
+<H1>Hello</H1><p>Hello World</p><p>+-*/123</p><p>ABCDS</p>
+Output
+<h1>hello</h1><p>hello world</p><p>+-*/123</p><p>abcds</p>
+
+Test Case 4
+Input 
+1 http://www.dcs.gla.ac.uk/~bjorn/sem20172018/ae2private/IDA.html
+2 http://www.dcs.gla.ac.uk/~bjorn/sem20172018/ae2public/Supervised_learning.html
+3 http://www.dcs.gla.ac.uk/~bjorn/sem20172018/ae2public/Unsupervised_learning.html
+4 http://www.dcs.gla.ac.uk/~bjorn/sem20172018/ae2public/Reinforcement_learning.html
+5 http://www.dcs.gla.ac.uk/~bjorn/sem20172018/ae2public/Arthur_Samuel.html
