@@ -30,9 +30,9 @@ object Asynchronous extends App {
 
   def sleep(sleeptime: Long) : Unit = Thread.sleep(sleeptime)
 
-  def getdata(sym : String) : Future[String] = Future {
-    println(s"Sending requrest to $sym")
-    val json = fromURL(sym).mkString
+  def getdata(url : String) : Future[String] = Future {
+    println(s"Sending requrest to $url")
+    val json = fromURL(url).mkString
     json
   }
 
